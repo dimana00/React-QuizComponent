@@ -12,7 +12,7 @@ class Quiz extends React.Component {
     return (
       <div>
         <QuizQuestion quiz_question={quizData.quiz_questions[quiz_position-1]}/>
-      </div>;
+      </div>
     )
   }
 }
