@@ -12,5 +12,8 @@ class Quiz extends React.Component {
           </ul>
         </section>
       </main>
+    return{
+      
+    }
   }
 }
