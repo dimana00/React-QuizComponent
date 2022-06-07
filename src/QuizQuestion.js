@@ -1,0 +1,16 @@
+import React, { Component } from 'react'
+
+class Quiz extends React.Component {
+  render(){
+    <main>
+        <section>
+          <p>{this.props.instruction_text}</p>
+        </section>
+        <section className="buttons">
+          <ul>
+            <li>{this.props.quiz_question.answer_options[0]}</li>
+          </ul>
+        </section>
+      </main>
+  }
+}
